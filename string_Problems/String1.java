@@ -1,4 +1,4 @@
-package classProject;
+package string_Problems;
 
 import java.util.*;
 public class String1 

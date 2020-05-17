@@ -1,4 +1,4 @@
-package classProject;
+package string_Problems;
 
 public class Stringreplace {
 	
