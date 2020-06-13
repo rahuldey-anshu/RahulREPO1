@@ -1,12 +1,12 @@
 package comparators_and_comparable;
 
-public class Student1 {
+public class Student2 {
 	
 	 int roll;
 	 String name;
 	 int marks ;
-	  
-	public Student1(int r , String n , int m )
+	
+	public Student2(int r , String n , int m )
 	{
 		this.roll = r;
 		this.name = n;
@@ -44,7 +44,8 @@ public class Student1 {
 
 	@Override
 	public String toString() {
-		return "Student1 [roll=" + roll + ", name=" + name + ", marks=" + marks + "]";
+		return "Student2 [roll=" + roll + ", name=" + name + ", marks=" + marks + "]";
 	}
 	
 }
+

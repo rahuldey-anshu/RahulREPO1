@@ -1,5 +1,5 @@
 package comparators_and_comparable;
-
+//sort using anonymous comparator class 
 import java.util.*;
 
 public class Student_List1 {
@@ -16,11 +16,10 @@ public class Student_List1 {
 	s.add(new Student1(41 , "Prabir" , 71));
 	s.add(new Student1(25 , "Anuj" , 45));
 	
-//	Collections.sort(s , new SortByNameThenMarks()) ; //or
 	
-	Collections.sort(s ,new Comparator<Student1>() {
+	Collections.sort(s ,new Comparator<Student1>() { 
+		// A nested class that doesn't have any name is known as an anonymous class.
 		
-	
 		@Override
 		  public int compare(Student1 s1, Student1 s2) 
 			{
@@ -35,11 +34,12 @@ public class Student_List1 {
 			}
 	});
 	
-
 	s.forEach(System.out::println); 
+	
 	}
 }
 	
+
 //class SortByNameThenMarks implements Comparator<Student1>
 // {
 //

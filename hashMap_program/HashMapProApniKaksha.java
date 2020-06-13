@@ -1,6 +1,9 @@
 package hashMap_program;
+
 import java.util.Map.Entry;
+
 import java.util.*;
+
 public class HashMapProApniKaksha {
   public static void main(String[] args) {
 	
